@@ -1,0 +1,28 @@
+{
+  "name": "dom4",
+  "repo": "ask11/dom4",
+  "description": "DOM Level 4 methods",
+  "version": "0.1.0",
+  "keywords": [
+    "dom",
+    "append",
+    "prepend",
+    "before",
+    "after",
+    "replace",
+    "remove"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "development": {
+    "dependencies": {
+      "chaijs/chai": "*",
+      "component/domify": "*",
+      "component/query": "*"
+    },
+    "scripts": [
+      "test/index.js"
+    ]
+  }
+}
