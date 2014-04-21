@@ -86,6 +86,7 @@ function replace(el, node) {
  */
 
 function remove(el) {
+  if (el.remove) return el.remove();
   var parentNode = el.parentNode;
   if (parentNode) el.parentNode.removeChild(el);
 }
