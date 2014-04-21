@@ -1,8 +1,7 @@
-
 # Dom4
 
-  In order to avoid verbose and weird code like `el.parentNode.removeChild(el)`,
-  `parent.insertBefore(el, parent.firstChild)`, or `el.insertAdjacentHTML('beforebegin', string)`,
+  In order to avoid verbose and weird code like `el.parentNode.removeChild(el)`, or
+  `parent.insertBefore(el, parent.firstChild)`,
   [Dom Level 4](https://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#interface-element)
   proposes 6 nice methods:
 
@@ -11,12 +10,12 @@
   - replace/remove
 
 But, they are not implemented in all browsers, and [shim](https://github.com/WebReflection/dom4) is not a choose.
-This library eliminates most of the needs for dom manipulations. Has no dependencies and only 38 CLOC.
+This library eliminates most of the needs for dom manipulations, has no dependencies and containts only 38 CLOC.
 
   Inspired by:
 
-  - [you might not need jquery](http://youmightnotneedjquery.com/)
   - [dom level 4 proposal](https://github.com/WebReflection/dom4)
+  - http://youmightnotneedjquery.com/
   - [component/dom](https://github.com/component/dom)
 
 ## Installation
@@ -46,9 +45,6 @@ remove(el);
 ### .remove(el)
 
 ## Development
-
-  With [component(1)](github.com/component/component)
-  and [component-testem](github.com/gingkoapp/component-testem):
 
 ```
 $ npm install -g component component-testem
